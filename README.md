@@ -1,7 +1,4 @@
-log-parser-plugin
+Jenkins-Diffing-plugin
 =================
 
-Parses the console output and highlights error/warning/info lines.
-
-http://wiki.jenkins-ci.org/display/JENKINS/Log+Parser+Plugin
-
+Please go for Documentation.pdf for complete info.
