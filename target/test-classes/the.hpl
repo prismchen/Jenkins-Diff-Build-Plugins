@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: log-parser
+Long-Name: Log Parser Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Log+Parser+Plugin
+Plugin-Version: 1.1-SNAPSHOT (private-02/10/2016 08:20-xiaochen)
+Hudson-Version: 1.596.1
+Jenkins-Version: 1.596.1
+Plugin-Dependencies: maven-plugin:2.12,subversion:2.5.4
+Plugin-Developers: John Borghi:jborghi:jborghi@java.net
+Support-Dynamic-Loading: true
+Libraries: /Users/xiaochen/Documents/workspace/log-parser/target/class
+ es,/Users/xiaochen/.m2/repository/com/google/code/gson/gson/2.4/gson-
+ 2.4.jar,/Users/xiaochen/.m2/repository/com/github/stephenc/findbugs/f
+ indbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar,/Users/x
+ iaochen/.m2/repository/com/googlecode/java-diff-utils/diffutils/1.2.1
+ /diffutils-1.2.1.jar,/Users/xiaochen/.m2/repository/commons-io/common
+ s-io/2.4/commons-io-2.4.jar
+Resource-Path: /Users/xiaochen/Documents/workspace/log-parser/src/main
+ /webapp
+
