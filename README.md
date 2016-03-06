@@ -128,8 +128,7 @@ When the user chooses “POM Dependency” in the entry page, this class will ge
 5. Build your job. After selecting a build, an entry should appear in the right panel. Click the entry, the GUI for the plugin should 
   appear.
 
-  There will be 3 drop down menus “Choose A Build”, “Choose Another Build” and “Choose Type of Diff”. The build menu shows all the   
-  available builds. When the two builds are chosen, the two builds are diffed against each other. In the second drop­down menu, you have   options to:
+  There will be 3 drop down menus “Choose A Build”, “Choose Another Build” and “Choose Type of Diff”. The build menu shows all the available builds. When the two builds are chosen, the two builds are diffed against each other. In the second drop­down menu, you have options to:
 
   - diff console output by line
   - diff console output by section
@@ -142,18 +141,11 @@ When the user chooses “POM Dependency” in the entry page, this class will ge
   ![Alt text](/figures/f2.png?raw=true "Usage Step 4")
 
 
-6. There are three more significant sections ­­ namely “Switch to Another Type of Diff”, “Download Report” and the diff results.
-
-  “Switch to Another Type of Diff” allows user to quickly switch to different type of Diff without repeating the above steps.
-  “Download Report” gives user an option to download and save the diff result as html file.
-  In the diff results, this shows the difference between the two selected builds using the chosen diff type.
-  The “Show/Hide” toggle button just above the result allows displaying the entire codes or only showing the changed codes.
+6. There are three more significant sections ­­ namely “Switch to Another Type of Diff”, “Download Report” and the diff results. “Switch to Another Type of Diff” allows user to quickly switch to different type of Diff without repeating the above steps. “Download Report” gives user an option to download and save the diff result as html file. In the diff results, this shows the difference between the two selected builds using the chosen diff type. The “Show/Hide” toggle button just above the result allows displaying the entire codes or only showing the changed codes.
 
   ![Alt text](/figures/f3.png?raw=true "Usage Step 5")
 
-  
-7. The lines highlighted in green are the codes added, the reds indicate the removed codes and for the one highlighted in blue, it   
-  indicates the modified codes.
+7. The lines highlighted in green are the codes added, the reds indicate the removed codes and for the one highlighted in blue, it indicates the modified codes.
 
   ![Alt text](/figures/f4.png?raw=true "Usage Step 6")
 
