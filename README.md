@@ -117,7 +117,7 @@ When the user chooses “POM Dependency” in the entry page, this class will ge
 
 ## 4. Usage
 
-1. First place the plugin HPI file in the Jenkins plugin folder.
+1. First place the plugin .hpi file in the Jenkins plugin folder.
 
 2. If you are using Subversion as SCM for project, make sure your Jenkins Subversion plugin version is 2.5.4 or above.
 
@@ -128,7 +128,7 @@ When the user chooses “POM Dependency” in the entry page, this class will ge
 5. Build your job. After selecting a build, an entry should appear in the right panel. Click the entry, the GUI for the plugin should 
   appear.
 
-  There will be 3 drop down menus “Choose A Build”, “Choose Another Build” and “Choose Type of Diff”. The build menu shows all the available builds. When the two builds are chosen, the two builds are diffed against each other. In the second drop­down menu, you have options to:
+  There will be 3 drop down menus: “Choose A Build”, “Choose Another Build” and “Choose Type of Diff”. The build menu shows all the available builds. When the two builds are chosen, the two builds are diffed against each other. In the second drop­down menu, you have options to:
 
   - diff console output by line
   - diff console output by section
