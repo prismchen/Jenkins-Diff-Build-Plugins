@@ -117,4 +117,37 @@ When the user chooses “POM Dependency” in the entry page, this class will ge
 
 ## 4. Usage
 
+1. First place the plugin HPI file in the Jenkins plugin folder.
 
+2. If you are using Subversion as SCM for project, make sure your Jenkins Subversion plugin version is 2.5.4 or above.
+
+3. In order to use the arbitrary tag functionality, you will need to modify the parsing rule. Check out h ttps://wiki.jenkins­ci.org/display/JENKINS/Log+Parser+Plugin, and in the “Example parsing rules file”, you are able to add rules for arbitrary tags (such as “jenkins /JENKINS/”).
+
+4. On the configuration page of a job, check the “Enable diff build functionality” as a post build step.
+
+5. Build your job. After selecting a build, an entry should appear in the right panel. Click the entry, the GUI for the plugin should 
+  appear.
+
+  There will be 3 drop down menus “Choose A Build”, “Choose Another Build” and “Choose Type of Diff”. The build menu shows all the   
+  available builds. When the two builds are chosen, the two builds are diffed against each other. In the second drop­down menu, you have   options to:
+
+  - diff console output by line
+  - diff console output by section
+  - diff source code
+  - diff Maven phase
+  - diff POM dependecy
+
+  Once desired builds and type are selected, click OK to continue.
+
+6. There are three more significant sections ­­ namely “Switch to Another Type of Diff”, “Download Report” and the diff results.
+
+  “Switch to Another Type of Diff” allows user to quickly switch to different type of Diff without repeating the above steps.
+
+  “Download Report” gives user an option to download and save the diff result as html file.
+
+  In the diff results, this shows the difference between the two selected builds using the chosen diff type.
+
+  The “Show/Hide” toggle button just above the result allows displaying the entire codes or only showing the changed codes.
+
+7. The lines highlighted in green are the codes added, the reds indicate the removed codes and for the one highlighted in blue, it   
+  indicates the modified codes.
