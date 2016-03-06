@@ -3,7 +3,7 @@
 ## 1. Introduction 
 
 
-### 1.1 Introduction
+### 1.1 Purposes
 
 Jenkins is a common continuous integration server that allows developers to continuously release the latest version of the software to users with ease. Among the greatest problems developers encounter during this process is not being able to view the changes between each build in order to gain better understanding of what’s going, and thus can decide what strategies to take. For our project we aimed to rectify this problem with a plugin. Our plugin, Diff Build Plugin, is a product that enables the comparison of the Jenkins console outputs, POM dependencies, source codes, and Maven phases among different builds.
 
@@ -138,16 +138,22 @@ When the user chooses “POM Dependency” in the entry page, this class will ge
   - diff POM dependecy
 
   Once desired builds and type are selected, click OK to continue.
+  
+  ![Alt text](/figures/f2.png?raw=true "Usage Step 4")
+
 
 6. There are three more significant sections ­­ namely “Switch to Another Type of Diff”, “Download Report” and the diff results.
 
   “Switch to Another Type of Diff” allows user to quickly switch to different type of Diff without repeating the above steps.
-
   “Download Report” gives user an option to download and save the diff result as html file.
-
   In the diff results, this shows the difference between the two selected builds using the chosen diff type.
-
   The “Show/Hide” toggle button just above the result allows displaying the entire codes or only showing the changed codes.
 
+  ![Alt text](/figures/f3.png?raw=true "Usage Step 5")
+
+  
 7. The lines highlighted in green are the codes added, the reds indicate the removed codes and for the one highlighted in blue, it   
   indicates the modified codes.
+
+  ![Alt text](/figures/f4.png?raw=true "Usage Step 6")
+
